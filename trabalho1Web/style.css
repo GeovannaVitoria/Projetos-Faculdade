@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-form{
+    width: 38%;
+    /* height: 500px; */
+    margin: 30px auto;   
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: sans-serif;
+    background-color: rgb(231, 229, 231, 0.6 );
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.418);
+}
+
+.container-form h1{
+    border-bottom: 1px solid #700701;
+}
+
+.la-belle-aurore-regular{
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-form p{
+    font-weight: 600;
+    color: black;
+    text-shadow: 2px 1px #f5f5f5;
+}
+
+.conteudo-form{
+    padding: 20px;
+}
+
+.form-label{
+    text-align: left;
+}
+
+.titulo-input{
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.form-label input{
+    text-align: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.container-form form input{
+    padding: 15px;
+    border-radius: 20px;
+    border: 2PX solid #700701;
+    background-color: transparent;
+}
+
+.container-form form input:hover{
+    border: 2px solid #700701;
+}
+
+select{
+   border: 2px solid #700701; 
+   border-radius: 10px;
+   width: 100%;
+   padding: 15px;
+   background-color: transparent;
+   color: #757575;
+}
+
+select option:first-child{
+    color: #757575;
+    background-color: rgb(231, 229, 231) ;
+}
+
+select option{
+    color: #f5f5f5;
+    background-color: #700701;
+}
+
+.container-escolha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-escolha input{
+    background-color: #700701;
+}
+
+.botao-form{
+    background-image: url(imgs/img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /* border-radius: 0px 0px 30px 30px; */
+    width: 100%;
+    border-radius: 300px;
+}
+
+.botao-form input{
+    border: none;
+    padding: 10px;
+    opacity: 0.9;
+    background-color: transparent;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-form:hover{
+    color: #700701;
+    font-weight: 700;
+    text-shadow: 1px 2px #f5f5f5;
+}

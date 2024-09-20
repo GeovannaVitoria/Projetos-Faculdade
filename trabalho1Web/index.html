@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de semi-joias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-form">
+        <h1 class="la-belle-aurore-regular">Sorteio de semi-joias</h1>
+        
+        <div class="conteudo-form">
+            <p>1. Preencha o formulário com seus dados!</p><br>
+            <form>
+                <div class="form-label">
+                    <label class="titulo-input">Nome</label><br>
+                    <input type="text" placeholder="Nome">
+                </div>
+
+                <div class="form-label">
+                    <label class="titulo-input">Celular</label><br>
+                    <input type="text" placeholder="Número">
+                </div>
+
+                <p>2. Qual a loja mais próxima a você?</p> <br>
+                <select>
+                    <option class="first-option" selected disabled>Selecione sua área</option>
+                    <option>Campo Grande</option>
+                    <option>Barra da Tijuca</option>
+                    <option>Recreio</option>
+                    <option>Botafogo</option>
+                </select> <br><br>
+
+                <p>3. Qual sua joia preferida?</p><br>
+                <div class="container-escolha">
+                    <input type="radio" id="prata" name="fav_joia" value="Prata">
+                    <label> Prata</label>
+                </div>
+               
+                <div class="container-escolha">
+                    <input type="radio" id="prata" name="fav_joia" value="Ouro">
+                    <label> Ouro</label>
+                </div>
+        </div>
+
+            <div class="botao-form">
+                <input class="btn-form" type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
