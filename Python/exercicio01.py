@@ -17,12 +17,12 @@ while True:
             soma = 8 * quantidade
         case _:
             print("Código inválido")
-            continue
+            break
 
     total += soma
 
     continua_programa = int(input("Digite 1 para continuar ou 0 caso já tenha finalizado a compra: "))
 
     if continua_programa == 0:
-        print(f"Total = R$ {total}")
+        print(f"Total = R$ {total:.2f}")
         break
